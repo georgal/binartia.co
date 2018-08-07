@@ -1,0 +1,99 @@
+.navbar.navbar-dark.navbar-expand-lg.fixed-top.bg-white.portfolio-navbar.gradient {
+  background-color:rgb(181,117,117);
+}
+.navbar{
+  background-color: black;
+  position: fixed;
+}
+
+.right{
+  float: right;
+}
+
+.page-footer{
+  position: fixed;
+  height: 100px;
+  width: 100%;
+  bottom: 0;
+}
+
+.page-footer div{
+  width: 100%;
+  float: left;
+}
+
+.page{
+  min-height:100%;
+}
+
+.blackis{
+  background-color: black;
+}
+
+rotar {
+    background-image: url('../img/avatars/avatar.png');
+}
+rotar:hover {
+    background-image: url('../img/avatars/avatar2.png');
+}
+
+.buttoner {
+  margin-top: 10px;
+  background-image: url(../img/avatars/avatar.png);
+  width:2em;
+  height:1.956em;
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+  background-color: Transparent;
+  border: none;  
+  vertical-align:middle;content:"";
+  }
+
+.buttoner:hover{
+  background-image: url(../img/avatars/avatar2.png);
+}
+
+.anime {
+  width:2em;height:1.956em;
+  background-color: black; 
+}
+
+#shorten{
+  width: 25%;
+}
+
+#shorten a{
+  text-decoration: none;
+  font-size: 3.9vw;
+}
+
+@media only screen and (max-width: 1300px) {
+  #shorten a{
+    font-size: 4vw;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  #shorten a{
+    font-size: 5.5vw;
+  }
+}
+@media only screen and (max-width: 900px) {
+  #shorten a{
+    font-size: 7vw;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #shorten a{
+    font-size: 9vw;
+  }
+}
+
+
+#shorten a:hover{
+  text-decoration: underline;
+  color: white;
+}
+
+.topino{
+  border-bottom: 0.5px solid white;
+}
