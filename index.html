@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binartia.co</title>
+    <link rel="shortcut icon" href="avatar.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono">
+    <link rel="stylesheet" href="assets/css/untitled.css">
+    <link rel="stylesheet" href="assets/css/animation.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<body style="font-family:'Fira Mono', monospace;background-color:rgb(0,0,0);color:rgb(255,255,255);">
+
+  <!-- Sidebar (hidden by default) -->
+  <nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="background-color: rgb(0,0,0,0.95); display:none;z-index:2;width:100%;min-width:300px" id="mySidebar">
+    <div id="shorten" class="w3-display-middle w3-left">
+        <a href="javascript:void(0)" onclick="w3_close()" class="left">X</a><br>
+        <a href="#d" onclick="w3_close()" class="right animated zoomInDown">Works</a>
+        <a href="#f" onclick="w3_close()" class="right animated zoomInDown">Projects</a>
+        <a href="#e" onclick="w3_close()" class="right animated zoomInDown">Library</a>
+        <a href="#a" onclick="w3_close()" class="right animated zoomInDown">About</a>
+        <a href="#s" onclick="w3_close()" class="right animated zoomInDown">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Top menu -->
+  <div class="w3-top topino">
+    <div class="w3-xlarge" style="width:90%;margin:auto">
+      <div class="w3-padding-16 w3-left"><a class="navbar-brand logo" href="#"><img src='assets/img/logo.png' height=50px;></a></div>
+      <div class="w3-padding-16 w3-right"><button href="#" onclick="w3_open();" class="buttoner"> <span class="anime"></span></div>
+    </div>
+  </div>
+
+
+    <main class="page landing-page">
+        <section class="portfolio-block block-intro">
+            <div class="container w3-display-middle">
+                <div class="about-me animated fadeIn">
+                    <p>< Technology & Design. <br> Innovation & Improvement ><br><br><small class="right"> IT Services & Development</small></p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="page-footer">
+        <div class="container">
+            All Rights Reserved 2018 . binartia.co
+        </div>
+    </footer>
+
+    <script>
+    // Script to open and close sidebar
+    function w3_open() {document.getElementById("mySidebar").style.display = "block";}
+    function w3_close() {document.getElementById("mySidebar").style.display = "none";}
+    </script>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/theme.js"></script>
+</body>
+
+</html>
